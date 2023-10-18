@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-ady8
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/mramdani-tenant/partner-catalog-5/partner-catalog-ady8@sha256:61150a1923ed3fa5da8609e8385d7bb061b47a141a8f7c50b750215bc3280516
         name: my-java-springboot
         ports:
         - containerPort: 8081
